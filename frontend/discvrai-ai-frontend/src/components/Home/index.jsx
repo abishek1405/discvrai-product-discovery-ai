@@ -41,10 +41,12 @@ export default function Home() {
 
       {summary && <SummaryBox summary={summary} />}
 
-      <div className="grid">
-        {products.map((product, index) => (
+      <div className="grid container">
+        <div className="row">
+          {products.map((product, index) => (
           <ProductCard key={index} product={product} />
         ))}
+        </div>
       </div>
     </div>
   );
