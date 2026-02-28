@@ -66,3 +66,7 @@ body.light .summary{
   body.dark .card-title{
     color: #ffffff;
   }
+
+  body.dark .card-text{
+    color: rgb(224, 208, 208);
+  }
