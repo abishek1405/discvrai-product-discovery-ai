@@ -12,7 +12,7 @@ export default function Home() {
     try {
       setLoading(true);
 
-      const res = await fetch("http://localhost:5000/api/ask", {
+      const res = await fetch("https://discvrai-product-discovery-ai.onrender.com/api/ask", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
