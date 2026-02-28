@@ -44,11 +44,11 @@ body.light .toggle-btn {
   color: black;
 }
 
-body.dark .card{
+body.dark .product-card{
   background-color: #1f1f1f;
   border: 1px solid #333;
   color: #ffffff;}
-body.light .card{
+body.light .product-card{
   background-color: #ffffff;        
     border: 1px solid #ddd;
     color: #000000;

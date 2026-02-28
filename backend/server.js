@@ -51,11 +51,9 @@ app.post("/api/ask", async (req, res) => {
   try {
     const productContext = products
       .map(
-        (p) =>
-          `${p.id}. ${p.name} - ${p.category} - ₹${p.price} - tags: ${p.tags.join(
-            ", "
-          )}`
-      )
+  (p) =>
+    `${p.id}. ${p.name} - ${p.category} - ₹${p.price} - tags: ${p.tags.join(", ")} - image: ${p.image}`
+)
       .join("\n");
 
     const prompt = `
