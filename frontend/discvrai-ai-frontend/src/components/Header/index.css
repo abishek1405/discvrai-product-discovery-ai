@@ -62,3 +62,7 @@ body.light .summary{
   background-color: #ffffff;    
     border: 1px solid #060af3;
     color: #000000; }
+
+  body.dark .card-title{
+    color: #ffffff;
+  }
